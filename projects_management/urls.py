@@ -21,7 +21,8 @@ from django.utils.translation import gettext as _
 from django.conf import settings
 from django.conf.urls.static import static
 
-
+admin.site.site_header = _('Projects Management')
+admin.site.site_title = _('Projects Management')
 
 urlpatterns = [
     path('__debug__/', include(debug_toolbar.urls)),
