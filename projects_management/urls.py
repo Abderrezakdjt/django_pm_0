@@ -18,13 +18,14 @@ from django.contrib import admin
 from django.urls import path, include
 import debug_toolbar
 from django.utils.translation import gettext as _
+from django.conf import settings
+from django.conf.urls.static import static
 
 
-admin.site.site_header = _('Projects Management')
-admin.site.site_title = _('Projects Management')
 
 urlpatterns = [
     path('__debug__/', include(debug_toolbar.urls)),
     path('', include('projects.urls')),
+    path('accounts/', include('accounts.urls')),
     path('admin/', admin.site.urls),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

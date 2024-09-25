@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-25 10:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\projects\forms.py:14 .\projects\models.py:15 .\projects\models.py:16
+msgid "Category"
+msgstr "التصنيف"
+
+#: .\projects\forms.py:15
+msgid "Title"
+msgstr "العنوان"
+
+#: .\projects\forms.py:16
+msgid "Description"
+msgstr "الوصف"
+
+#: .\projects\models.py:20
+msgid "Pending"
+msgstr "قيد التنفيذ"
+
+#: .\projects\models.py:21
+msgid "Completed"
+msgstr "مكتمل"
+
+#: .\projects\models.py:22
+msgid "Postponed"
+msgstr "معلق"
+
+#: .\projects\models.py:23
+msgid "Canceled"
+msgstr "ملغى"
+
+#: .\projects\models.py:46 .\projects\models.py:47
+msgid "Project"
+msgstr "مشروع"
+
+#: .\projects\models.py:59 .\projects\models.py:60
+msgid "Task"
+msgstr "مهمة"
+
+#: .\projects\templates\base.html:10
+#: .\projects\templates\partials\header.html:7
+msgid "Projects Management"
+msgstr "إدارة المشاريع"
+
+#: .\projects\templates\partials\footer.html:6
+msgid "(c) 2024 Djatou. All rights reserved."
+msgstr "جميع الخقوق محفوظة. جاطو 2021"
+
+#: .\projects\templates\partials\header.html:17
+msgid "Home"
+msgstr "الرئيسية"
+
+#: .\projects\templates\partials\header.html:27
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: .\projects\templates\partials\header.html:29
+msgid "Change Password"
+msgstr "تغيير كلمة المرور"
+
+#: .\projects\templates\partials\header.html:34
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+#: .\projects\templates\partials\header.html:39
+msgid "Change Color"
+msgstr "تغيير اللون"
+
+#: .\projects\templates\partials\header.html:43
+msgid "Primary"
+msgstr "الأزرق"
+
+#: .\projects\templates\partials\header.html:44
+msgid "Secondary"
+msgstr "الرمادي"
+
+#: .\projects\templates\partials\header.html:45
+msgid "Success"
+msgstr "أخضر"
+
+#: .\projects\templates\partials\header.html:46
+msgid "Danger"
+msgstr "الأحمر"
+
+#: .\projects\templates\partials\header.html:47
+msgid "Warning"
+msgstr "الأصفر"
+
+#: .\projects\templates\partials\header.html:48
+msgid "Info"
+msgstr "الأزرق فاتح"
+
+#: .\projects\templates\partials\header.html:49
+msgid "Dark"
+msgstr "الأسود"
+
+#: .\projects\templates\partials\header.html:60
+msgid "Search"
+msgstr "بحث"
+
+#: .\projects\templates\partials\header.html:70
+msgid "Register"
+msgstr "حساب جديد"
+
+#: .\projects\templates\partials\header.html:73
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: .\projects\templates\project\create.html:9
+#: .\projects\templates\project\list.html:12
+#: .\projects\templates\project\list.html:62
+msgid "New Project"
+msgstr "مشروع جديد"
+
+#: .\projects\templates\project\create.html:16
+msgid "Create"
+msgstr "إنشاء"
+
+#: .\projects\templates\project\delete.html:5
+msgid "Alert"
+msgstr "تنبيه"
+
+#: .\projects\templates\project\delete.html:7
+msgid "Are you sure to delete"
+msgstr "هل أنت متأكد من أنك تريد حذف"
+
+#: .\projects\templates\project\delete.html:8
+#: .\projects\templates\project\update.html:46
+msgid "Delete"
+msgstr "حذف"
+
+#: .\projects\templates\project\list.html:9
+msgid "My Projects"
+msgstr "مشاريعي"
+
+#: .\projects\templates\project\list.html:43
+msgid "Edit"
+msgstr "تعديل"
+
+#: .\projects\templates\project\list.html:57
+msgid "There is no projects to show"
+msgstr "لا توجد أية مشاريع لعرضها"
+
+#: .\projects\templates\project\list.html:74
+#: .\projects\templates\project\list.html:79
+msgid "Previous"
+msgstr "السابق"
+
+#: .\projects\templates\project\list.html:85
+#: .\projects\templates\project\list.html:90
+msgid "Next"
+msgstr "التالي"
+
+#: .\projects\templates\project\task.html:31
+msgid "New Task"
+msgstr "مهمة جديدة"
+
+#: .\projects\templates\project\task.html:32
+msgid "Add"
+msgstr "إضافة"
+
+#: .\projects\templates\project\update.html:42
+msgid "Save"
+msgstr "حفظ"
+
+#~ msgid "Light"
+#~ msgstr "الأبيض"
